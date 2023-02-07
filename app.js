@@ -8,6 +8,12 @@ app.get('/', (req, res) => {
     (__dirname + "/views/home.html")
   })
 
+  app.get('/about', (req, res) => {
+    res.sendFile
+    (__dirname + "/views/about.html")
+  })
+
+
   app.listen(port, ()=> {
 console.log("batman returns puerto: " + port )
 
