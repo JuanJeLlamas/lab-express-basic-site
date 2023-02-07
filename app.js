@@ -9,6 +9,9 @@ app.get("/", (req, res) => {
 app.get("/about", (req, res) => {
   res.sendFile(__dirname + "/views/about.html");
 });
+app.get("/work", (req, res) => {
+    res.sendFile(__dirname + "/views/work.html");
+  });
 
 app.listen(port, () => {
   console.log("batman returns puerto: " + port);
