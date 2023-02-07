@@ -15,6 +15,11 @@ app.get("/work", (req, res) => {
     res.sendFile(__dirname + "/views/work.html");
   });
 
+  app.get("/galery", (req, res) => {
+    res.sendFile(__dirname + "/views/galery.html");
+  });
+
+
 app.listen(port, () => {
   console.log("batman returns puerto: " + port);
 });
