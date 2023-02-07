@@ -22,3 +22,125 @@ ul {
 a {
     text-decoration: none;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* About Styles */
+
+.title-container {
+    text-align: center;
+}
+
+.container-sections {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin:  20px 2rem;
+    gap: 20px;
+}
+
+.container-sections .section {
+    width: 100%;
+    max-width: 800px;
+    background-color: rgba(67, 108, 255, 0.419);
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 0 8px;
+}
+
+.container-sections .section  h2{
+    text-align: center;
+}
+
+
+.container-sections .section  p{
+    font-size: 1rem;
+    padding: 12px;
+}
+
+.container-list {
+    padding: 20px;
+}
+
+.container-list li {
+    padding: 20px;
+}
+
+.container-list span {
+    font-weight: 800;
+}
+
