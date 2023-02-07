@@ -20,5 +20,19 @@ ul {
 }
 
 a {
+    display: block;
+    text-decoration: none;
+    overflow: hidden;
+    background-color: lightgray;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
 }
+a:hover {
+    cursor: pointer;
+    background-color: gray ;
+}
+
+
+
