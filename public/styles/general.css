@@ -39,19 +39,31 @@ a:hover {
   cursor: pointer;
   background-color: gray;
 }
+#nombre-batman {
+  color: rgba(67, 108, 255, 0.419);
+  font-size: 20px;
+}
+#batmovil {
+  color: gray
+}
+#frase-final {
+  color:rgba(67, 108, 255, 0.419);
+  font-size: 24px;
+}
 
 /* Work styles */
 #title-work {
     text-align: center;
 }
 .container {
-    position: absolute;
-    top: 50%; 
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
-
+.batman-trabajo {
+  text-align: center;
+}
 
 /* About Styles */
 
