@@ -1,38 +1,87 @@
 html {
-    font-size: 16px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+  font-size: 16px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
 body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background-color: black;
-    color: white;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+  color: white;
 }
 
-h1 {font-size: 3rem;}
-h2 {font-size: 2.5rem;}
-h3 {font-size: 2rem;}
+h1 {
+  font-size: 3rem;
+}
+h2 {
+  font-size: 2.5rem;
+}
+h3 {
+  font-size: 2rem;
+}
 
 ul {
-    list-style: none;
+  list-style: none;
 }
 
 a {
-    display: block;
-    text-decoration: none;
-    overflow: hidden;
-    background-color: lightgray;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+  display: block;
+  text-decoration: none;
+  overflow: hidden;
+  background-color: lightgray;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 a:hover {
-    cursor: pointer;
-    background-color: gray ;
+  cursor: pointer;
+  background-color: gray;
 }
 
+/* About Styles */
 
+.title-container {
+  text-align: center;
+}
 
+.container-sections {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 20px 2rem;
+  gap: 20px;
+}
+
+.container-sections .section {
+  width: 100%;
+  max-width: 800px;
+  background-color: rgba(67, 108, 255, 0.419);
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 0 8px;
+}
+
+.container-sections .section h2 {
+  text-align: center;
+}
+
+.container-sections .section p {
+  font-size: 1rem;
+  padding: 12px;
+}
+
+.container-list {
+  padding: 20px;
+}
+
+.container-list li {
+  padding: 20px;
+}
+
+.container-list span {
+  font-weight: 800;
+}
